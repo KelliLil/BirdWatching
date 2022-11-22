@@ -1,0 +1,12 @@
+/* Select any and all descendants that are 'div' inside of 'header' */
+header div {
+    display: flex; 
+    align-items: center;
+    gap: 1rem; 
+    /* Generally for spacing, use rem */
+}
+h1 {
+    font-size: 3em; 
+    /* Use em for font sizes */
+    font-weight: 700;
+}
