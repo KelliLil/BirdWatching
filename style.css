@@ -1,3 +1,6 @@
+header, main, footer {
+    background-color: greenyellow;
+}
 /* Select any and all descendants that are 'div' inside of 'header' */
 header div {
     display: flex; 
