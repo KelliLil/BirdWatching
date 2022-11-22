@@ -13,8 +13,23 @@ header {
     flex-direction: column;
     align-items: center;
 }
+li {
+    list-style: none;
+}
 h1 {
     font-size: 3em; 
     /* Use em for font sizes */
     font-weight: 700;
+}
+nav ul{
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: goldenrod;
+    padding: 1rem;
 }
