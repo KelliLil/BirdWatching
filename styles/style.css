@@ -1,8 +1,9 @@
 header, footer {
     background-color: greenyellow;
 }
-main {
+main section{
     background-color: lightgreen;
+    padding: 0 1rem;
 }
 /* Select any and all descendants that are 'div' inside of 'header' */
 header div {
@@ -24,6 +25,10 @@ h1 {
     /* Use em for font sizes */
     font-weight: 700;
 }
+
+h2 {
+    font-size: 2.2em;
+}
 nav ul{
     display: flex;
 }
@@ -44,19 +49,9 @@ main {
     display: flex;
     margin: 1rem 0;
     padding: 1rem;
-}
-h2  {
-    text-align: center;
-    font-size: 2em;
-    gap: 1rem;
-    flex-direction: column;
-    font-weight: 500;
-
+    column-gap: 1.5rem;
 }
 
-main div {
-    justify-content: flex-start;
-}
-main section {
-    justify-content:flex-end
+main section:first-child {
+    min-width: 60%;
 }
