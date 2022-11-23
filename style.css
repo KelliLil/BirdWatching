@@ -41,7 +41,20 @@ nav a:hover {
 }
 
 main {
+    display: flex;
     margin: 1rem 0;
     padding: 1rem;
 }
+h2  {
+    text-align: center;
+    font-size: 2em;
+    gap: 1rem;
 
+}
+
+main div {
+    justify-content: flex-start;
+}
+main section {
+    justify-content:flex-end
+}
