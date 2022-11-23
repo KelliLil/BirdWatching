@@ -49,6 +49,8 @@ h2  {
     text-align: center;
     font-size: 2em;
     gap: 1rem;
+    flex-direction: column;
+    font-weight: 500;
 
 }
 
