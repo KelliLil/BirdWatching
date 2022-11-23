@@ -1,5 +1,8 @@
-header, main, footer {
+header, footer {
     background-color: greenyellow;
+}
+main {
+    background-color: lightgreen;
 }
 /* Select any and all descendants that are 'div' inside of 'header' */
 header div {
@@ -40,5 +43,5 @@ nav a:hover {
 main {
     margin: 1rem 0;
     padding: 1rem;
-
 }
+
