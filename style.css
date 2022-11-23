@@ -33,3 +33,12 @@ nav a {
     background-color: goldenrod;
     padding: 1rem;
 }
+nav a:hover {
+    background-color: darkgoldenrod;
+}
+
+main {
+    margin: 1rem 0;
+    padding: 1rem;
+
+}
