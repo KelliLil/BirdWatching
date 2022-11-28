@@ -77,3 +77,7 @@ main section:last-child {
   main section:last-child img:last-child {
     grid-area: img-4;
   }
+
+  footer {
+    padding: 1rem, 0.5rem;
+  }
