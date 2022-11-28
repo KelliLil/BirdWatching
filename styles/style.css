@@ -5,6 +5,12 @@ main section{
     background-color: lightgreen;
     padding: 0 1rem;
 }
+img {
+    /* keep from spilling over page */
+    max-width: 100%;
+    height: auto;
+}
+
 /* Select any and all descendants that are 'div' inside of 'header' */
 header div {
     display: flex; 
