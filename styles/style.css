@@ -32,6 +32,7 @@ h1 {
 
 h2 {
   font-size: 2.441rem;
+  margin: 0;
 }
 
 nav a {
@@ -124,9 +125,28 @@ footer {
   padding: 1rem 0.5rem;
 }
 
+input, textarea {
+  border-radius: 4px;
+  padding-left: 4px;
+}
+
+button {
+  background-color: blanchedalmond;
+  border-radius: 4px;
+  padding: 0.5rem;
+  max-width: max-content;
+  align-self: center;
+  margin-top: 1rem;
+  
+}
+
 /* TODO: Simplify the CSS by using these classes. */
 .flex {
   display: flex;
+}
+
+form {
+  gap: 0.5rem;
 }
 
 .flex--items--center {
@@ -144,7 +164,7 @@ flex-direction: column;
   position: relative;
 }
 
-label {
+label:not([for="newsletter"]):not([for="heard"]) {
   position: absolute;
 width: 1px;
 height: 1px;
